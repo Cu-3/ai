@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../sells-img/Untitled\ design\ \(1\).png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #005B49;
+    z-index: 999;
+}
+.logo {
+    width: 300px;
+    height: 55px;
+    padding-left: 10px;
+}
+.container2 {
+    position: relative;
+    width: 100%;
+}
+.img {
+    position:relative;
+    top: 30%;
+    width: 30%;
+    height: 60%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    float: left;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}
+.form {
+    position: relative;
+    top: 15% ;
+    width: 33%;
+    height:70%;
+    margin-left: 5%;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+    /* box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.61); */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    transition: .8s;
+}
+.form-title {
+    position: relative;
+    font-size: 36px;
+    color: #005B49;
+    margin-top: 25px;
+    transition: .8s ;
+}
+.form-title-div {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    transition: .8s;
+    
+}
+.form-title-div::after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0px;
+    height:4px;
+    width: 30px;
+    background-color: #005B49;
+    transition: .8s;
+}
+.form:hover .form-title-div::after{
+    width: 100%;
+}
+.list {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.input {
+    width: 80%;
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    /* border-bottom: 2px solid black; */
+}
+div .icon {
+    font-size: 18px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.div {
+    border-bottom: 2px solid rgb(208, 208, 208);
+    margin-bottom: 20px;
+    width: 75%;
+    margin: 10px auto;
+    background-color: white;
+    transition:.6s;
+}
+/* .div input:focus {
+
+    border-bottom: 2px solid #005B49;
+} */
+.div2 {
+    margin-bottom: 10px;
+}
+.form-link {
+    text-decoration: none;
+    margin-left: -220px;
+    color: rgb(31, 31, 31);
+}
+.link2 {
+    padding-top: 15px;
+}
+.link2 a {
+    text-decoration: none;
+}
+.hr-content {
+    margin-top: 15px;
+}
+.hr1 {
+    width: 200px;
+    float: left;
+}
+.or {
+    position: relative;
+    top: -10px;
+    left: 23px;
+    float: left;
+    width: fit-content;
+    margin:auto ;
+    
+}
+.hr2 {
+    position: relative;
+    right: 20px;
+    float: right;
+    width: 200px;
+}
+.login-with {
+    position: relative;
+    left: 20px;
+    width: 200px;
+    margin:  auto;
+    margin-top: 60px;
+}
+.ico {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 21px;
+    color: #005B49;
+}
+.ico:hover {
+    color: #00775f;
+}
+.login-with-title {
+    position: relative;
+    font-size: 23px;
+    left: -70px;
+}
+.btn > button > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn > button {
+    float: right;
+    width: 40%;
+    /* margin:  10px auto; */
+    margin-right: 60px;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background-color: #005B49;
+    transition: .3s;
+    cursor: pointer;
+}
+.btn > button:hover {
+    background-color: #00775f;
+}
+.title {
+    position: relative;
+    top:10% ;
+    right: 10px;
+    width: 21%;
+    height: 600px;
+    margin-left: 5%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    float: right;
+    overflow: hidden;
+}
+.title1-1 {
+    text-align: center;
+    font-size: 32px;
+    color:#F6F2CB;
+}
+.title2-2 {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin-top: 10px;
+}
+.p1-1 {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(188, 188, 188);
+    margin-top: 60px;
+}
+.btn1 {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    left: 20px;
+}
+.btn1 button {
+    padding: 10px 20px;
+    border: none;
+    color: #005B49;
+    background-color: #F6F2CB;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn1 button a {
+    text-decoration: none;
+    color: #005B49;
+}
+.btn1 button:hover {
+    background-color: #faf3b3;
+}
